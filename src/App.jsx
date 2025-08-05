@@ -63,7 +63,7 @@ function AddToDo({ arr, setArr }) {
 function SingleTodo({ itemId, ele, func }) {
   return (
     <div style={{ height: 37, fontFamily: "sans-serif", backgroundColor: "rgb(20, 18, 19)", borderRadius: 34, border: "1px solid rgba(79, 67, 73, 1)", color: "white", fontWeight: 600, fontSize: 18 }}>
-      <img src="src/assets/OIP.jpeg" style={{ width: 20, position: "relative", top: -4.5, left: 390, cursor: "pointer" }} onClick={() => func(itemId)}></img>
+      <img src="/OIP.jpeg" style={{ width: 20, position: "relative", top: -4.5, left: 390, cursor: "pointer" }} onClick={() => func(itemId)}></img>
       <input className="check" type="checkbox" style={{ margin: 5, position: "relative", left: -8 }}></input>
       <span style={{ position: "relative", top: -8, left: -2, border: "2px solid blue" }}>{ele}</span>
     </div>
@@ -81,7 +81,7 @@ function Preface() {
         Let's get started....
       </Link>
     </button>
-    <img src="src/ToDo.webp" style={{ borderRadius: 100, position: "relative", top: 50 }} />
+    <img src="/ToDo.webp" style={{ borderRadius: 100, position: "relative", top: 50 }} />
   </div>
 }
 
