@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(20, 18, 19);
+}
+
+.myInput ::placeholder {
+    color: cyan;
+}
+
+.check {
+  width: 24px;
+  height: 24px;
+  border: 2px solid #333;
+  border-radius: 4px;
+  appearance: none;
+  -webkit-appearance: none;
+  background-color: rgb(39, 195, 203);
+  cursor: pointer;
+  position: relative; /* scales everything including tick */
+  top: 2px;
+}
+.check:checked::after {
+  content: '';
+  position: absolute;
+  left: 10px;
+  top: -7px;
+  width: 6px;
+  height: 25px;
+  border: solid rgb(220, 15, 0);
+  border-width: 0 4px 4px 0;
+  transform: rotate(45deg);
+}

@@ -1,0 +1,9 @@
+.myInput::placeholder {
+    color: cyan;
+    position: relative;
+    left: 3px;
+    font-weight: 200;
+    font-size: 15px;
+    
+}
+
