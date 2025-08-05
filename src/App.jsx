@@ -65,7 +65,7 @@ function SingleTodo({ itemId, ele, func }) {
     <div style={{ height: 37, fontFamily: "sans-serif", backgroundColor: "rgb(20, 18, 19)", borderRadius: 34, border: "1px solid rgba(79, 67, 73, 1)", color: "white", fontWeight: 600, fontSize: 18 }}>
       <img src="/OIP.jpeg" style={{ width: 20, position: "relative", top: -4.5, left: 390, cursor: "pointer" }} onClick={() => func(itemId)}></img>
       <input className="check" type="checkbox" style={{ margin: 5, position: "relative", left: -8 }}></input>
-      <span style={{ position: "relative", top: -8, left: -2, border: "2px solid blue" }}>{ele}</span>
+      <span style={{ position: "relative", top: -8, left: -2}}>{ele}</span>
     </div>
   )
 
